@@ -12,7 +12,7 @@ class testFizzBuzz {
 	
 	@Test
 	void intput_1_output_1() {
-		assertEquals( "1", i1);	
+		assertEquals( "1", i11);	
 	}
 
 }
