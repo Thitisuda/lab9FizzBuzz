@@ -15,6 +15,7 @@ class testFizzBuzz {
 	String i5 = m.getInt(5);
 	String i6 = m.getInt(6);
 	String i7 = m.getInt(7);
+	String i8 = m.getInt(8);
 	
 	
 	@Test
@@ -50,5 +51,10 @@ class testFizzBuzz {
 	@Test
 	void intput_7_output_7() {
 		assertEquals( "7", i7);	
+	}
+
+	@Test
+	void intput_8_output_8() {
+		assertEquals( "8", i8);	
 	}
 }
