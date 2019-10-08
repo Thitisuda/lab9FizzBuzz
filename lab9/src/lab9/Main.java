@@ -14,13 +14,13 @@ public class Main {
 	}
 	
 	public static String getInt(int keyboard) {
-		if ((keyboard%3)==0) {
+		if (((keyboard%3)==0)&&((keyboard%5)==0)) {
+			return FizzBuzz();
+		}else if ((keyboard%3)==0) {
 			return Fizz();	
 		}else if ((keyboard%5)==0) {
 			return Buzz();	
-		}
-		
-		
+		}else
 		return Integer.toString(keyboard);		
 	}
 	
@@ -31,6 +31,9 @@ public class Main {
 	}
 	public static String Buzz() {
 		return "Buzz";
+	}
+	public static String FizzBuzz() {
+		return "FizzBuzz";
 	}
 
 }
