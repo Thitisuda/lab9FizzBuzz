@@ -10,13 +10,20 @@ class testFizzBuzz {
 	
 	String i1 = m.getInt(1);
 	String i2 = m.getInt(2);
+	String i3 = m.getInt(3);
 	
 	@Test
 	void intput_1_output_1() {
 		assertEquals( "1", i1);	
 	}
+	
 	@Test
 	void intput_2_output_2() {
 		assertEquals( "2", i2);	
+	}
+	
+	@Test
+	void intput_3_output_Fizz() {
+		assertEquals( "Fizz", i3);	
 	}
 }

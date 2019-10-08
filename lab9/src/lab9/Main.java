@@ -14,7 +14,18 @@ public class Main {
 	}
 	
 	public static String getInt(int keyboard) {
+		if ((keyboard%3)==0) {
+			return Fizz();	
+		}
+		
+		
 		return Integer.toString(keyboard);		
+	}
+	
+	
+	
+	public static String Fizz() {
+		return "Fizz";
 	}
 
 }
