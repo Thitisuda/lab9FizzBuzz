@@ -12,6 +12,8 @@ class testFizzBuzz {
 	String i2 = m.getInt(2);
 	String i3 = m.getInt(3);
 	String i4 = m.getInt(4);
+	String i5 = m.getInt(5);
+	
 	
 	@Test
 	void intput_1_output_1() {
@@ -27,8 +29,14 @@ class testFizzBuzz {
 	void intput_3_output_Fizz() {
 		assertEquals( "Fizz", i3);	
 	}
+	
 	@Test
 	void intput_4_output_4() {
 		assertEquals( "4", i4);	
+	}
+	
+	@Test
+	void intput_5_output_Buzz() {
+		assertEquals( "Buzz", i5);	
 	}
 }

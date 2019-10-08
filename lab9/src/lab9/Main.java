@@ -16,6 +16,8 @@ public class Main {
 	public static String getInt(int keyboard) {
 		if ((keyboard%3)==0) {
 			return Fizz();	
+		}else if ((keyboard%5)==0) {
+			return Buzz();	
 		}
 		
 		
@@ -26,6 +28,9 @@ public class Main {
 	
 	public static String Fizz() {
 		return "Fizz";
+	}
+	public static String Buzz() {
+		return "Buzz";
 	}
 
 }
